@@ -1,4 +1,5 @@
 
+
 Project Title
 
 📊 Mobile Sales Data Interactive Dashboard – Power BI
@@ -6,114 +7,125 @@ Project Title
 
 🧩 Project Overview
 
+This project is an Interactive Dashboard built using Microsoft Power BI to analyze and visualize Mobile Sales Data.
+By leveraging DAX formulas and Power BI visualizations, the dashboard provides valuable insights into sales trends, brand performance, customer behavior, and payment methods.
 
-This project is an Interactive Dashboard built in Microsoft Power BI to analyze Mobile Sales Data.
+The goal of this project is to help businesses make data-driven decisions by understanding sales distribution across different dimensions like month, brand, city, and payment type.
 
-Using various DAX formulas, I have derived meaningful business insights and key performance indicators (KPIs) that help understand sales trends, product performance, and revenue distribution.
-
-The dashboard visually represents crucial metrics through different charts, slicers, and visuals, enabling users to make data-driven decisions effectively.
-
-🗂️ Repository Contents
+📁 Repository Contents
 
 File Name	Description
+
 Mobile_Sales_Data_Interactive_Dashboard.pbix	Power BI project file containing the interactive dashboard.
 
-Mobile_Sales_Data.xlsx	Excel dataset used for analysis and dashboard creation.
+Mobile_Sales_Data.xlsx	Excel dataset used for building the dashboard.
 
-Dashboard_Preview.png	PNG image preview of the dashboard.
+Mobile_Sales_Interactive_Dashboard.png	Static image preview of the final dashboard.
 
-Dashboard_Video.mp4	Short interactive video demonstrating the Power BI dashboard features.
+Dashboard_Interactive_Video.mp4	Short interactive demo video of the Power BI dashboard.
 
 
 📈 Dashboard Insights
 
-The dashboard presents insights such as:
+The Power BI dashboard showcases multiple KPIs and insights, including:
 
-📅 Monthly and Quarterly Sales Trends
+💰 Total Sales: 769M
 
-📱 Top Performing Mobile Brands and Models
+📦 Total Quantity Sold: 19K
 
-💰 Total Sales Revenue and Profit Analysis
+🔁 Total Transactions: 4K
 
-🌍 Sales Performance by Region / Country
+📊 Average Sales Value: 40K
 
-👥 Customer Purchase Patterns and Preferences
 
-🏷️ Comparison of Online vs Offline Sales Channels
 
-Each insight is displayed using interactive charts like bar charts, pie charts, line graphs, cards, and slicers, making data exploration easy and engaging.
+Key Visual Insights
+
+1️⃣Total Sales by City: Geographical distribution of mobile sales across major Indian cities.
+
+2️⃣Total Quantity by Month: Trend analysis showing monthly quantity sold throughout the year.
+
+3️⃣Transactions by Payment Method: Breakdown of sales transactions by UPI, Debit Card, Credit Card, and Cash.
+
+4️⃣Customer Ratings: Visual analysis of customer satisfaction levels.
+
+5️⃣Total Sales by Mobile Model: Performance comparison of popular models such as iPhone SE, OnePlus Nord, and Galaxy Note 20.
+
+6️⃣Total Sales by Brand: Comparison of top-selling brands (Apple, OnePlus, Samsung, Vivo, Xiaomi).
+
+7️⃣Total Sales by Day Name: Day-wise sales pattern to identify peak sales days.
 
 
 ⚙️ Tools & Technologies Used
 
 
-👉🏻Microsoft Power BI – For data visualization and dashboard creation
+✅Microsoft Power BI – For creating visuals and insights
 
-👉🏻DAX (Data Analysis Expressions) – For calculated measures and KPIs
+✅Microsoft Excel – For storing and preparing raw data
 
-👉🏻Microsoft Excel – For data storage and preprocessing
+✅DAX (Data Analysis Expressions) – For creating calculated columns and measures
 
 
 🧮 Key DAX Measures Used
 
 
-Some of the DAX formulas used in this project include:
+Some examples of the DAX formulas used in this project:
+
+👉🏻Total Sales = SUM(Sales[Amount])
+
+👉🏻Total Quantity = SUM(Sales[Quantity])
+
+👉🏻Profit = [Total Sales] - [Total Cost]
+
+👉🏻Average Sales Value = DIVIDE([Total Sales], [Total Transactions])
+
+👉🏻Sales Growth % = DIVIDE(([Current Month Sales] - [Previous Month Sales]), [Previous Month Sales])
 
 
-1️⃣Total Sales = SUM(Sales[Amount])
-
-2️⃣Total Quantity = SUM(Sales[Quantity])
-
-3️⃣Profit = [Total Sales] - [Total Cost]
-
-4️⃣Sales Growth % = DIVIDE(([Total Sales] - [Previous Month Sales]), [Previous Month Sales])
-
-5️⃣Average Selling Price = DIVIDE([Total Sales], [Total Quantity])
-
-These measures were used to create insightful KPIs and dynamic visualizations.
+These DAX calculations power the KPIs and trend visuals in the dashboard.
 
 
 🧠 Learning & Takeaways
 
-✅Improved understanding of Power BI dashboard design and data modeling
+✅Learned how to design visually appealing dashboards using Power BI
 
-✅Hands-on practice with DAX formulas for deriving business insights
+✅Applied DAX formulas to extract meaningful metrics and KPIs
 
-✅Enhanced skills in data cleaning, visualization, and storytelling
+✅Improved data storytelling through interactive charts, maps, and filters
+
+✅Gained hands-on experience in data analysis, transformation, and visualization
 
 
-📸 Dashboard Preview
+🖼️ Dashboard Preview
 
-🎥 Interactive Dashboard Video
+🎥 Interactive Dashboard Demo
 
-Watch the interactive demonstration of the dashboard 
 
 
 🚀 How to Use
 
+
 👉🏻Download or clone this repository.
 
-👉🏻Open the .pbix file in Microsoft Power BI Desktop.
+👉🏻Open Mobile_Sales_Data_Interactive_Dashboard.pbix using Power BI Desktop.
 
-👉🏻Load the Mobile_Sales_Data.xlsx file if prompted.
+👉🏻Ensure the data source (Mobile_Sales_Data.xlsx) is correctly connected.
 
-👉🏻Explore the dashboard using filters and slicers for different insights.
+👉🏻Explore the dashboard using slicers and filters (Month, Brand, Mobile Model, Payment Method, etc.) to view dynamic insights.
 
 
-
-🧑‍💻 Author
+👩‍💻 Author
 
 Saheli Nath
-📧 LinkedIn: [https://www.linkedin.com/in/saheli-nath28/]
 
-Email: [nathsaheli1999@gmail.com]
+🔗 LinkedIn Profile: [https://www.linkedin.com/in/saheli-nath28/]
 
+📧 Email ID: [nathsaheli1999@gmail.com]
 
 
 ⭐ Acknowledgment
 
+This Power BI dashboard was created as part of my data analysis learning journey, showcasing practical knowledge of DAX, visualization, and dashboard storytelling.
 
-This project was created as part of my learning journey to strengthen data analysis and visualization skills in Power BI.
-
-If you find this project helpful, don’t forget to ⭐ Star this repository!
+If you found this project helpful, please consider ⭐ starring this repository to show your support!
 
