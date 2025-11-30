@@ -1,131 +1,137 @@
 
+# 📚 Books Sales Data Records Interactive Dashboard (Power BI Project)
 
-Project Title
+An interactive Power BI dashboard designed to visualize and analyze key insights from Books Sales Data Records. Using slicers, dynamic visuals, and interactive charts, this dashboard provides a detailed overview of book sales performance, helping to identify patterns, top-performing categories, and overall business trends.
 
-📊 Mobile Sales Data Interactive Dashboard – Power BI
+📑 **Table of Contents**
 
+📘 Project Overview
 
-🧩 Project Overview
+📊 Dashboard Features
 
-This project is an Interactive Dashboard built using Microsoft Power BI to analyze and visualize Mobile Sales Data.
-By leveraging DAX formulas and Power BI visualizations, the dashboard provides valuable insights into sales trends, brand performance, customer behavior, and payment methods.
+📈 Insights & Key Findings
 
-The goal of this project is to help businesses make data-driven decisions by understanding sales distribution across different dimensions like month, brand, city, and payment type.
+🧠 Skills & Tools Used
 
-📁 Repository Contents
+🗂️ Project Files in Repository
 
-File Name	Description
+⚙️ How to Use the Dashboard
 
-Mobile_Sales_Data_Interactive_Dashboard.pbix	Power BI project file containing the interactive dashboard.
+🎥 Dashboard Preview
 
-Mobile_Sales_Data.xlsx	Excel dataset used for building the dashboard.
+💡 Learnings
 
-Mobile_Sales_Interactive_Dashboard.png	Static image preview of the final dashboard.
+📫 Connect with Me
 
-Dashboard_Interactive_Video.mp4	Short interactive demo video of the Power BI dashboard.
 
 
-📈 Dashboard Insights
+📘 **Project Overview**
 
-The Power BI dashboard showcases multiple KPIs and insights, including:
+This Books Sales Data Dashboard project is built in Power BI to analyze book sales data and extract meaningful insights. The dashboard is fully interactive and designed with an emphasis on simplicity, clarity, and insight-driven visualization.
 
-💰 Total Sales: 769M
+It allows users to explore sales patterns across multiple dimensions, such as:
 
-📦 Total Quantity Sold: 19K
+💠Book Category
 
-🔁 Total Transactions: 4K
+💠Author
 
-📊 Average Sales Value: 40K
+💠Customer Region
 
+💠Month/Year
 
+💠Quantity Sold
 
-Key Visual Insights
+💠Revenue Generated
 
-1️⃣Total Sales by City: Geographical distribution of mobile sales across major Indian cities.
+📊 **Dashboard Features**
 
-2️⃣Total Quantity by Month: Trend analysis showing monthly quantity sold throughout the year.
+✅ Interactive slicers for category, author, and time-based filtering 
 
-3️⃣Transactions by Payment Method: Breakdown of sales transactions by UPI, Debit Card, Credit Card, and Cash.
+✅ Visual KPIs for total revenue, units sold, and average sales 
 
-4️⃣Customer Ratings: Visual analysis of customer satisfaction levels.
+✅ Dynamic charts for monthly and yearly trend analysis 
 
-5️⃣Total Sales by Mobile Model: Performance comparison of popular models such as iPhone SE, OnePlus Nord, and Galaxy Note 20.
+✅ Comparative visuals for top-selling books and authors 
 
-6️⃣Total Sales by Brand: Comparison of top-selling brands (Apple, OnePlus, Samsung, Vivo, Xiaomi).
+✅ Clean, professional design layout for easy data interpretation
 
-7️⃣Total Sales by Day Name: Day-wise sales pattern to identify peak sales days.
+📈 **Insights & Key Findings**
 
+👉🏻The dashboard highlights important business insights such as:
 
-⚙️ Tools & Technologies Used
+👉🏻Top-selling book categories contributing the highest revenue
 
+👉🏻Most popular authors based on total sales
 
-✅Microsoft Power BI – For creating visuals and insights
+👉🏻Regional sales performance comparison
 
-✅Microsoft Excel – For storing and preparing raw data
+👉🏻Monthly and yearly sales trends
 
-✅DAX (Data Analysis Expressions) – For creating calculated columns and measures
+👉🏻Insights into sales volume and profit contribution
 
+🧠 **Skills & Tools Used**
 
-🧮 Key DAX Measures Used
+**Category Tools / Techniques:**
 
+1️⃣Visualization Tool Power BI
 
-Some examples of the DAX formulas used in this project:
+2️⃣Data Preparation Power Query Editor
 
-👉🏻Total Sales = SUM(Sales[Amount])
+3️⃣Data Modeling Relationships, DAX Measures
 
-👉🏻Total Quantity = SUM(Sales[Quantity])
+4️⃣Visualization Bar Chart, Pie Chart, Line Chart, Card KPIs, Slicers
 
-👉🏻Profit = [Total Sales] - [Total Cost]
+5️⃣Analytics Sales Trend Analysis, Comparative Insights, Filtering Logic
 
-👉🏻Average Sales Value = DIVIDE([Total Sales], [Total Transactions])
+🗂️ **Project Files in Repository**
 
-👉🏻Sales Growth % = DIVIDE(([Current Month Sales] - [Previous Month Sales]), [Previous Month Sales])
+**File Name Description**
 
+1. Book Sales Analysis Normal Dashboard by SAHELI NATH.pbix Power BI project file containing data model and dashboard
 
-These DAX calculations power the KPIs and trend visuals in the dashboard.
+2. Books Sales Dashboard.png Static image preview of the dashboard
 
+. Books Sales Dashboard.mp4 Video demonstration showing dashboard interactivity
 
-🧠 Learning & Takeaways
+⚙️ **How to Use the Dashboard**
 
-✅Learned how to design visually appealing dashboards using Power BI
+1. Download the .pbix file:
 
-✅Applied DAX formulas to extract meaningful metrics and KPIs
+Book Sales Analysis Normal Dashboard by SAHELI NATH.pbix
 
-✅Improved data storytelling through interactive charts, maps, and filters
+2. Open it in Power BI Desktop (Version 2022 or later recommended)
 
-✅Gained hands-on experience in data analysis, transformation, and visualization
+3. Explore different visuals and insights using slicers and filters
 
+4. Hover over charts to view detailed tooltip insights
 
-🖼️ Dashboard Preview
+🎥 **Dashboard Preview**
 
-🎥 Interactive Dashboard Demo
+▶️ **Interactive Demo**
 
+💡 **Learnings**
 
+✅Through this project, I learned how to:
 
-🚀 How to Use
+✅Build an end-to-end interactive dashboard in Power BI
 
+✅Use Power Query for data cleaning and transformation
 
-👉🏻Download or clone this repository.
+✅Create relationships between multiple tables
 
-👉🏻Open Mobile_Sales_Data_Interactive_Dashboard.pbix using Power BI Desktop.
+✅Write DAX measures for KPIs and calculations
 
-👉🏻Ensure the data source (Mobile_Sales_Data.xlsx) is correctly connected.
+✅Design dashboards using data visualization best practices
 
-👉🏻Explore the dashboard using slicers and filters (Month, Brand, Mobile Model, Payment Method, etc.) to view dynamic insights.
+📫 **Connect with Me**
 
+If you found this project insightful or want to collaborate, feel free to connect with me:
 
-👩‍💻 Author
+**LinkedIn:** [https://www.linkedin.com/in/saheli-nath28/]
 
-Saheli Nath
+**GitHub:** [https://github.com/sahelinath22]
 
-🔗 LinkedIn Profile: [https://www.linkedin.com/in/saheli-nath28/]
+**Email:** [nathsaheli1999@gmail.com]
 
-📧 Email ID: [nathsaheli1999@gmail.com]
 
-
-⭐ Acknowledgment
-
-This Power BI dashboard was created as part of my data analysis learning journey, showcasing practical knowledge of DAX, visualization, and dashboard storytelling.
-
-If you found this project helpful, please consider ⭐ starring this repository to show your support!
 
