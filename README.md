@@ -107,7 +107,9 @@ Book Sales Analysis Normal Dashboard by SAHELI NATH.pbix
 
 🎥 **Dashboard Preview**
 
-▶️ **Interactive Demo**
+
+<img src="https://github.com/sahelinath22/Mobile-Sales-Data-Interactive-Dashboard-Project/blob/06f48622a1c07a4be9046e30cad9f29723000056/Mobile%20Sales%20Interactive%20Dashboard.png" alt="Image Description" width="600">
+
 
 💡 **Learnings**
 
